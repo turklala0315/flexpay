@@ -1,4 +1,3 @@
-import 'package:flexpay/ui/onboarding_screen/onboarding_screen.dart';
 import 'package:flexpay/ui/splash_screen.dart';
 import 'package:flutter/material.dart';
 
