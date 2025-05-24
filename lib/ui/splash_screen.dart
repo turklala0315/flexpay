@@ -1,5 +1,6 @@
 import 'dart:async';
-
+import 'package:flexpay/core/constant/color/colors.dart';
+import 'package:flexpay/core/constant/text_style/text_style.dart';
 import 'package:flexpay/ui/onboarding_screen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -26,15 +27,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: mainblue,
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         padding: const EdgeInsets.all(20),
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/static_assets/Splash.png"),
-          ),
-        ),
+        decoration: const BoxDecoration(),
+        child: Text('FlexPay', style: style40),
       ),
     );
   }

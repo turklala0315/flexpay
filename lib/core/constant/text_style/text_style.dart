@@ -35,8 +35,8 @@ const style17 = TextStyle(
   color: Colors.white,
   fontWeight: FontWeight.w700,
 );
-const style22 = TextStyle(
-  fontSize: 12,
+const style40 = TextStyle(
+  fontSize: 40,
   color: Colors.white,
   fontWeight: FontWeight.w700,
 );
